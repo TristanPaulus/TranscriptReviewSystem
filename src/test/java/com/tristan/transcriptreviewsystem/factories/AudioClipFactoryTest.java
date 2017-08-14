@@ -32,12 +32,15 @@ public class AudioClipFactoryTest {
         values.put("duration", 0.5);
         values.put("meeting", meeting);
 
-        clip = AudioClipFactory.getAudioClip(values);
+
     }
 
     @Test
     public void getAudioClip() throws Exception {
 
+        clip = AudioClipFactory.getAudioClip(values);
+
+        assertEquals("AUD_100", clip.getAudio_id());
         assertEquals("State of the nation address(5)", clip.getClip_name());
 
     }

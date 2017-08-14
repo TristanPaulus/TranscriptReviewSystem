@@ -11,16 +11,6 @@ import java.util.Map;
  */
 public class ReviewFactory {
 
-    private String review_id;
-    private Transcript transcript;
-    private User user;
-    private int grammar;
-    private int language;
-    private int translation;
-    private int loss_of_meaning;
-    private int punctuation;
-    private double total;
-
     public static Review getReview(Map<String, Object> values)
     {
         Review review = new Review.Builder()

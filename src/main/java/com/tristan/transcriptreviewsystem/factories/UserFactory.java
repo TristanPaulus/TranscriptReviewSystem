@@ -10,13 +10,6 @@ import java.util.Map;
  */
 public class UserFactory {
 
-    private String user_id;
-    private String password;
-    private String name;
-    private String surname;
-    private String email;
-    private ReviewRecord record;
-
     public static User getUser(Map<String, Object> values)
     {
         User user = new User.Builder()

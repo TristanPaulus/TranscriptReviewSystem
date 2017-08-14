@@ -10,14 +10,11 @@ import java.util.Map;
  */
 public class AudioClipFactory {
 
-    //String audio_id, String clip_name, double duration, Meeting meeting
-
-
     public static AudioClip getAudioClip(Map<String, Object> values)
     {
         AudioClip clip = new AudioClip.Builder()
                 .audio_id((String) values.get("audio_id"))
-                .clip_name((String) values.get("clip_id"))
+                .clip_name((String) values.get("clip_name"))
                 .duration((Double) values.get("duration"))
                 .meeting((Meeting) values.get("meeting"))
                 .build();
