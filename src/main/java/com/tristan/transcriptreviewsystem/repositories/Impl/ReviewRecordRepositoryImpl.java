@@ -12,7 +12,7 @@ import java.util.Map;
 public class ReviewRecordRepositoryImpl implements ReviewRecordRepository {
 
     private static ReviewRecordRepositoryImpl repository;
-    private Map<String, ReviewRecord> reviewRecordTable = new HashMap<String, ReviewRecord>();
+    private Map<String, ReviewRecord> reviewRecordTable = new HashMap<String, ReviewRecord>( );
 
     public static ReviewRecordRepositoryImpl getInstance()
     {

@@ -80,7 +80,7 @@ public class ReviewRepositoryTest {
         assertNotNull(savedReview);
         repository.delete("REV101");
         savedReview = repository.read("REV101");
-        assertNull(savedReview);
+        assertNull(savedReview );
     }
 
 }

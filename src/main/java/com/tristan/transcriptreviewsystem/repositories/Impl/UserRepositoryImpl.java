@@ -12,7 +12,7 @@ import java.util.Map;
 public class UserRepositoryImpl implements UserRepository{
 
     private static UserRepositoryImpl repository = null;
-    private Map<String, User> userTable = new HashMap<String, User>();
+    private Map<String, User> userTable = new HashMap<String, User>( );
 
     public static UserRepositoryImpl getInstance()
     {

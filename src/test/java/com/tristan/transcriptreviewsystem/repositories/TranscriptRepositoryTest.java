@@ -80,7 +80,7 @@ public class TranscriptRepositoryTest {
 
         repository.delete("T101");
         savedTranscript = repository.read("T101");
-        assertNull(savedTranscript);
+        assertNull(savedTranscript );
     }
 
 }
