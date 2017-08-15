@@ -3,6 +3,7 @@ package com.tristan.transcriptreviewsystem.repositories.Impl;
 import com.tristan.transcriptreviewsystem.domain.Participant;
 import com.tristan.transcriptreviewsystem.repositories.ParticipantRepository;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Map;
 public class ParticipantRepositoryImpl implements ParticipantRepository{
 
     private static ParticipantRepositoryImpl repository = null;
-    private Map<String, Participant> participantTable;
+    private Map<String, Participant> participantTable = new HashMap<String, Participant>();
 
     public static ParticipantRepositoryImpl getInstance()
     {

@@ -3,6 +3,7 @@ package com.tristan.transcriptreviewsystem.repositories.Impl;
 import com.tristan.transcriptreviewsystem.domain.User;
 import com.tristan.transcriptreviewsystem.repositories.UserRepository;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Map;
 public class UserRepositoryImpl implements UserRepository{
 
     private static UserRepositoryImpl repository = null;
-    private Map<String, User> userTable;
+    private Map<String, User> userTable = new HashMap<String, User>();
 
     public static UserRepositoryImpl getInstance()
     {

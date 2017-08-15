@@ -3,6 +3,7 @@ package com.tristan.transcriptreviewsystem.repositories.Impl;
 import com.tristan.transcriptreviewsystem.domain.Meeting;
 import com.tristan.transcriptreviewsystem.repositories.MeetingRepository;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Map;
 public class MeetingRepositoryImpl implements MeetingRepository{
 
     private static MeetingRepositoryImpl repository = null;
-    private Map<String, Meeting> meetingTable;
+    private Map<String, Meeting> meetingTable = new HashMap<String, Meeting>();
 
     public static MeetingRepositoryImpl getInstance()
     {

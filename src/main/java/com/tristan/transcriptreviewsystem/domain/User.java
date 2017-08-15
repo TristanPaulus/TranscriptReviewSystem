@@ -18,7 +18,7 @@ public class User implements Person{
         this.password = b.password;
         this.name = b.name;
         this.surname = b.surname;
-        this.email = b.email; ;
+        this.email = b.email;
         this.record = b.record;
     }
 

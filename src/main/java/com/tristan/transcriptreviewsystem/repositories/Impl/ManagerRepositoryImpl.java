@@ -3,6 +3,7 @@ package com.tristan.transcriptreviewsystem.repositories.Impl;
 import com.tristan.transcriptreviewsystem.domain.Manager;
 import com.tristan.transcriptreviewsystem.repositories.ManagerRepository;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Map;
 public class ManagerRepositoryImpl implements ManagerRepository{
 
     private static ManagerRepositoryImpl repository = null;
-    private Map<String, Manager> managerTable;
+    private Map<String, Manager> managerTable = new HashMap<String, Manager>();
 
     public static ManagerRepositoryImpl getInstance()
     {

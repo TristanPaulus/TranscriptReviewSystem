@@ -3,6 +3,7 @@ package com.tristan.transcriptreviewsystem.repositories.Impl;
 import com.tristan.transcriptreviewsystem.domain.AudioClip;
 import com.tristan.transcriptreviewsystem.repositories.AudioClipRepository;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -11,12 +12,13 @@ import java.util.Map;
 public class AudioClipRepositoryImpl implements AudioClipRepository {
 
     private static AudioClipRepositoryImpl repository = null;
-    private Map<String, AudioClip> clipTable;
+    private Map<String, AudioClip> clipTable = new HashMap<String, AudioClip>();
 
     public static AudioClipRepository getInstance()
     {
         if(repository == null)
             repository = new AudioClipRepositoryImpl();
+
 
         return repository;
     }
