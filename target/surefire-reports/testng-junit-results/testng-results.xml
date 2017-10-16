@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="44" passed="44">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="888" started-at="2017-09-05T11:51:58Z" finished-at="2017-09-05T11:51:58Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="888" started-at="2017-09-05T11:51:58Z" finished-at="2017-09-05T11:51:58Z">
+      <class name="com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest">
+        <test-method status="PASS" signature="calculateNewScores() throws java.lang.Exception" name="calculateNewScores" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateNewScores -->
+        <test-method status="PASS" signature="createValuesMap() throws java.lang.Exception" name="createValuesMap" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValuesMap -->
+        <test-method status="PASS" signature="newReviewRecord() throws java.lang.Exception" name="newReviewRecord" duration-ms="1" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newReviewRecord -->
+      </class> <!-- com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.ReviewFactoryTest">
+        <test-method status="PASS" signature="getReview() throws java.lang.Exception" name="getReview" duration-ms="44" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReview -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.ReviewFactoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.AppTest">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="44" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.tristan.transcriptreviewsystem.AppTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.ManagerFactoryTest">
+        <test-method status="PASS" signature="getManager() throws java.lang.Exception" name="getManager" duration-ms="21" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getManager -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.ManagerFactoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.AudioClipFactoryTest">
+        <test-method status="PASS" signature="getAudioClip() throws java.lang.Exception" name="getAudioClip" duration-ms="10" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAudioClip -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.AudioClipFactoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.ReviewRecordFactoryTest">
+        <test-method status="PASS" signature="getReviewRecord() throws java.lang.Exception" name="getReviewRecord" duration-ms="41" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReviewRecord -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.ReviewRecordFactoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest">
+        <test-method status="PASS" signature="delete() throws java.lang.Exception" name="delete" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="create() throws java.lang.Exception" name="create" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="read() throws java.lang.Exception" name="read" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="update() throws java.lang.Exception" name="update" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.services.SkillAssessorTest">
+        <test-method status="PASS" signature="findWeakestUser() throws java.lang.Exception" name="findWeakestUser" duration-ms="4" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findWeakestUser -->
+        <test-method status="PASS" signature="findWeakness() throws java.lang.Exception" name="findWeakness" duration-ms="3" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findWeakness -->
+        <test-method status="PASS" signature="findStrongestUser() throws java.lang.Exception" name="findStrongestUser" duration-ms="3" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStrongestUser -->
+        <test-method status="PASS" signature="findStrength() throws java.lang.Exception" name="findStrength" duration-ms="3" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findStrength -->
+        <test-method status="PASS" signature="createUserMap() throws java.lang.Exception" name="createUserMap" duration-ms="4" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserMap -->
+      </class> <!-- com.tristan.transcriptreviewsystem.services.SkillAssessorTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.TranscriptFactoryTest">
+        <test-method status="PASS" signature="getTranscript() throws java.lang.Exception" name="getTranscript" duration-ms="54" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTranscript -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.TranscriptFactoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest">
+        <test-method status="PASS" signature="delete() throws java.lang.Exception" name="delete" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="create() throws java.lang.Exception" name="create" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="read() throws java.lang.Exception" name="read" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="update() throws java.lang.Exception" name="update" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest">
+        <test-method status="PASS" signature="create() throws java.lang.Exception" name="create" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="delete() throws java.lang.Exception" name="delete" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="update() throws java.lang.Exception" name="update" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method status="PASS" signature="read() throws java.lang.Exception" name="read" duration-ms="3" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+      </class> <!-- com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest">
+        <test-method status="PASS" signature="delete() throws java.lang.Exception" name="delete" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="create() throws java.lang.Exception" name="create" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="update() throws java.lang.Exception" name="update" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method status="PASS" signature="read() throws java.lang.Exception" name="read" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+      </class> <!-- com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.services.NewReviewTest">
+        <test-method status="PASS" signature="generateReview() throws java.lang.Exception" name="generateReview" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReview -->
+        <test-method status="PASS" signature="invertLoss_of_meaning() throws java.lang.Exception" name="invertLoss_of_meaning" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invertLoss_of_meaning -->
+        <test-method status="PASS" signature="calculateTotal() throws java.lang.Exception" name="calculateTotal" duration-ms="1" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateTotal -->
+      </class> <!-- com.tristan.transcriptreviewsystem.services.NewReviewTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.UserFactoryTest">
+        <test-method status="PASS" signature="getUser() throws java.lang.Exception" name="getUser" duration-ms="50" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.UserFactoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest">
+        <test-method status="PASS" signature="delete() throws java.lang.Exception" name="delete" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="create() throws java.lang.Exception" name="create" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="update() throws java.lang.Exception" name="update" duration-ms="3" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method status="PASS" signature="read() throws java.lang.Exception" name="read" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+      </class> <!-- com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.MeetingFactoryTest">
+        <test-method status="PASS" signature="getMeeting() throws java.lang.Exception" name="getMeeting" duration-ms="26" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMeeting -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.MeetingFactoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest">
+        <test-method status="PASS" signature="delete() throws java.lang.Exception" name="delete" duration-ms="3" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="create() throws java.lang.Exception" name="create" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="read() throws java.lang.Exception" name="read" duration-ms="3" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="update() throws java.lang.Exception" name="update" duration-ms="2" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest -->
+      <class name="com.tristan.transcriptreviewsystem.factories.ParticipantFactoryTest">
+        <test-method status="PASS" signature="getParticipant() throws java.lang.Exception" name="getParticipant" duration-ms="9" started-at="2017-09-05T13:51:58Z" finished-at="2017-09-05T13:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getParticipant -->
+      </class> <!-- com.tristan.transcriptreviewsystem.factories.ParticipantFactoryTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

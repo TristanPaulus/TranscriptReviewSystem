@@ -1,7 +1,7 @@
 package com.tristan.transcriptreviewsystem.repositories.Impl;
 
-import com.tristan.transcriptreviewsystem.domain.Manager;
-import com.tristan.transcriptreviewsystem.repositories.ManagerRepository;
+//import com.tristan.transcriptreviewsystem.domain.Manager;
+//import com.tristan.transcriptreviewsystem.repositories.ManagerRepository;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,8 +9,8 @@ import java.util.Map;
 /**
  * Created by Tristan on 2017/08/15.
  */
-public class ManagerRepositoryImpl implements ManagerRepository{
-
+//public class ManagerRepositoryImpl /*implements ManagerRepository*/{
+/*
     private static ManagerRepositoryImpl repository = null;
     private Map<String, Manager> managerTable = new HashMap<String, Manager>();
 
@@ -42,4 +42,5 @@ public class ManagerRepositoryImpl implements ManagerRepository{
     public void delete(String manager_id) {
         managerTable.remove(manager_id);
     }
-}
+    */
+//}

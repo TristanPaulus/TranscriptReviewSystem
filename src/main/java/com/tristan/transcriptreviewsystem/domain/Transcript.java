@@ -1,16 +1,25 @@
 package com.tristan.transcriptreviewsystem.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by Tristan on 2017/08/11.
  */
-public class Transcript {
+@Entity
+public class Transcript implements Serializable, Comparable<Transcript>{
 
+    @Id
+    //@GeneratedValue(strategy= GenerationType.AUTO)
     private String transcript_id;
     private AudioClip clip;
     private Date date;
     private User transcriber;
+    private String text;
 
     public Transcript(Builder b)
     {
@@ -18,6 +27,7 @@ public class Transcript {
         this.clip = b.clip;
         this.date = b.date;
         this.transcriber = b.transcriber;
+        this.text = b.text;
     }
 
     public static class Builder
@@ -26,6 +36,7 @@ public class Transcript {
         private AudioClip clip;
         private Date date;
         private User transcriber;
+        private String text;
 
         public Builder transcript_id(String value)
         {
@@ -48,6 +59,12 @@ public class Transcript {
         public Builder transcriber(User value)
         {
             this.transcriber = value;
+            return this;
+        }
+
+        public Builder text(String value)
+        {
+            this.text = value;
             return this;
         }
 
@@ -74,5 +91,7 @@ public class Transcript {
         return transcriber;
     }
 
-
+    public int compareTo(Transcript t) {
+        return transcript_id.compareTo(t.getTranscript_id());
+    }
 }

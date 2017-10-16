@@ -3,14 +3,17 @@ package com.tristan.transcriptreviewsystem.repositories.Impl;
 import com.tristan.transcriptreviewsystem.domain.Review;
 import com.tristan.transcriptreviewsystem.repositories.ReviewRepository;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
  * Created by Tristan on 2017/08/15.
  */
-public class ReviewRepositoryImpl implements ReviewRepository {
+public class ReviewRepositoryImpl /*implements ReviewRepository*/ {
 
+    /*
     private static ReviewRepositoryImpl repository = null;
     private Map<String, Review> reviewTable = new HashMap<String, Review>();
 
@@ -42,4 +45,15 @@ public class ReviewRepositoryImpl implements ReviewRepository {
     public void delete(String review_id) {
         reviewTable.remove(review_id);
     }
+
+    public List<Review> findAll()
+    {
+        List<Review> reviews = new ArrayList<Review>();
+
+        for (String key : reviewTable.keySet()) {
+            reviews.add(reviewTable.get(key));
+        }
+        return reviews;
+    }
+    */
 }

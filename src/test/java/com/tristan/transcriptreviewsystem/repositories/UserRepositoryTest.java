@@ -1,8 +1,6 @@
 package com.tristan.transcriptreviewsystem.repositories;
 
-import com.tristan.transcriptreviewsystem.domain.ReviewRecord;
 import com.tristan.transcriptreviewsystem.domain.User;
-import com.tristan.transcriptreviewsystem.repositories.Impl.UserRepositoryImpl;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,58 +12,64 @@ import static org.junit.Assert.*;
 public class UserRepositoryTest {
 
     User user;
-    UserRepositoryImpl repository;
+    UserRepository repository;
 
     @Before
     public void setUp() throws Exception {
 
-        repository = UserRepositoryImpl.getInstance();
-
         user = new User.Builder()
                 .user_id("U101")
-                .password("password123")
-                .name("Tristan")
+                .passwordkey("password123")
+                .firstname("Tristan")
                 .build();
     }
 
     @Test
     public void create() throws Exception {
-        User savedUser = repository.create(user);
-        assertEquals("Tristan", savedUser.getName());
+        User savedUser = (User) repository.save(user);
+        assertEquals("Tristan", savedUser.getFirstname());
     }
 
     @Test
     public void read() throws Exception {
-        repository.create(user);
-        User savedUser = repository.read("U101");
-        assertEquals("Tristan", savedUser.getName());
+        repository.save(user);
+        User savedUser = repository.findOne("U101");
+        assertEquals("Tristan", savedUser.getFirstname());
     }
 
     @Test
     public void update() throws Exception {
 
-        repository.create(user);
+        repository.save(user);
 
         User updatedUser = new User.Builder()
                 .user_id("U101")
-                .password("password123")
-                .name("Tristan")
+                .passwordkey("password123")
+                .firstname("Tristan")
                 .email("tristan.ipaulus@gmail.com")
                 .build();
 
-        User savedUser = repository.update(updatedUser);
+        User savedUser = repository.save(updatedUser);
         assertEquals("tristan.ipaulus@gmail.com", savedUser.getEmail());
     }
 
     @Test
     public void delete() throws Exception {
 
-        User savedUser = repository.create(user);
+        User savedUser = repository.save(user);
         assertNotNull(savedUser);
 
         repository.delete("U101");
-        savedUser = repository.read("U101");
+        savedUser = repository.findOne("U101");
         assertNull(savedUser);
+    }
+
+    @Test
+    public void findAll() throws Exception
+    {
+        repository.save(user);
+        assertEquals(1, repository.count());
+
     }
 
 }

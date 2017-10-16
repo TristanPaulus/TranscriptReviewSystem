@@ -1,6 +1,5 @@
 package com.tristan.transcriptreviewsystem.factories;
 
-import com.tristan.transcriptreviewsystem.domain.ReviewRecord;
 import com.tristan.transcriptreviewsystem.domain.User;
 
 import java.util.Map;
@@ -14,11 +13,10 @@ public class UserFactory {
     {
         User user = new User.Builder()
                 .user_id((String) values.get("user_id"))
-                .password((String) values.get("password"))
-                .name((String) values.get("name"))
+                .passwordkey((String) values.get("passwordkey"))
+                .firstname((String) values.get("firstname"))
                 .surname((String) values.get("surname"))
                 .email((String) values.get("email"))
-                .record((ReviewRecord) values.get("record"))
                 .build();
 
         return user;

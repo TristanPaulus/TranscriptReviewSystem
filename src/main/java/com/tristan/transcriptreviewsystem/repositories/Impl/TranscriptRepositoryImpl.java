@@ -9,8 +9,8 @@ import java.util.Map;
 /**
  * Created by Tristan on 2017/08/15.
  */
-public class TranscriptRepositoryImpl implements TranscriptRepository {
-
+public class TranscriptRepositoryImpl /*implements TranscriptRepository*/ {
+/*
     private static TranscriptRepositoryImpl repository = null;
     private Map<String, Transcript> transcriptTable = new HashMap<String, Transcript>();
 
@@ -41,4 +41,5 @@ public class TranscriptRepositoryImpl implements TranscriptRepository {
     public void delete(String transcript_id) {
         transcriptTable.remove(transcript_id);
     }
+*/
 }

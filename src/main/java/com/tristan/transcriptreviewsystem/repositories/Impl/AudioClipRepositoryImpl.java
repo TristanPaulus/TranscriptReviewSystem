@@ -9,12 +9,12 @@ import java.util.Map;
 /**
  * Created by Tristan on 2017/08/15.
  */
-public class AudioClipRepositoryImpl implements AudioClipRepository {
-
+public class AudioClipRepositoryImpl /*implements AudioClipRepository*/ {
+/*
     private static AudioClipRepositoryImpl repository = null;
     private Map<String, AudioClip> clipTable = new HashMap<String, AudioClip>();
 
-    public static AudioClipRepository getInstance()
+    public static AudioClipRepositoryImpl getInstance()
     {
         if(repository == null)
             repository = new AudioClipRepositoryImpl();
@@ -44,5 +44,5 @@ public class AudioClipRepositoryImpl implements AudioClipRepository {
 
     public void delete(String audio_id) {
         clipTable.remove(audio_id);
-    }
+    }*/
 }

@@ -1,25 +1,28 @@
 package com.tristan.transcriptreviewsystem.factories;
 
-import com.tristan.transcriptreviewsystem.domain.Manager;
+//import com.tristan.transcriptreviewsystem.domain.Manager;
 
 import java.util.Map;
 
 /**
  * Created by Tristan on 2017/08/14.
  */
+
+/*
 public class ManagerFactory {
 
-    public static Manager getManager(Map<String, String> values)
+    public static Manager getManager(Map<String, Object> values)
     {
         Manager manager = new Manager.Builder()
-                .manager_id(values.get("manager_id"))
-                .name(values.get("name"))
-                .surname(values.get("surname"))
-                .email(values.get("email"))
-                .password(values.get("password"))
+                .manager_id((String) values.get("manager_id"))
+                .firstname((String) values.get("firstname"))
+                .surname((String) values.get("surname"))
+                .email((String) values.get("email"))
+                .passwordkey((String) values.get("passwordkey"))
                 .build();
 
         return manager;
     }
 
 }
+*/

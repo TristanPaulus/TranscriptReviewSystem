@@ -1,10 +1,17 @@
 package com.tristan.transcriptreviewsystem.domain;
 
+import javax.persistence.*;
+import java.io.Serializable;
+
 /**
  * Created by Tristan on 2017/08/11.
  */
-public class Review {
 
+@Entity
+public class Review implements Serializable, Comparable<Review>{
+
+    @Id
+    //@GeneratedValue(strategy= GenerationType.AUTO)
     private String review_id;
     private Transcript transcript;
     private User user;
@@ -136,5 +143,7 @@ public class Review {
         return total;
     }
 
-
+    public int compareTo(Review r) {
+        return review_id.compareTo(r.getReview_id());
+    }
 }

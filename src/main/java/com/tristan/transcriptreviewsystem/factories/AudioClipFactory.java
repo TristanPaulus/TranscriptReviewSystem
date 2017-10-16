@@ -1,7 +1,7 @@
 package com.tristan.transcriptreviewsystem.factories;
 
 import com.tristan.transcriptreviewsystem.domain.AudioClip;
-import com.tristan.transcriptreviewsystem.domain.Meeting;
+//import com.tristan.transcriptreviewsystem.domain.Meeting;
 
 import java.util.Map;
 
@@ -16,7 +16,7 @@ public class AudioClipFactory {
                 .audio_id((String) values.get("audio_id"))
                 .clip_name((String) values.get("clip_name"))
                 .duration((Double) values.get("duration"))
-                .meeting((Meeting) values.get("meeting"))
+                //.meeting((Meeting) values.get("meeting"))
                 .build();
 
         return clip;

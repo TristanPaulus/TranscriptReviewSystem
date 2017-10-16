@@ -1,35 +1,41 @@
 package com.tristan.transcriptreviewsystem.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.io.Serializable;
+
 /**
  * Created by Tristan on 2017/08/11.
  */
-public class User implements Person{
+@Entity
+public class User implements Person, Serializable, Comparable<User>{
 
+    @Id
+    //@GeneratedValue(strategy= GenerationType.AUTO)
     private String user_id;
-    private String password;
-    private String name;
+    private String passwordkey;
+    private String firstname;
     private String surname;
     private String email;
-    private ReviewRecord record;
 
     public User(Builder b)
     {
         this.user_id = b.user_id;
-        this.password = b.password;
-        this.name = b.name;
+        this.passwordkey = b.passwordkey;
+        this.firstname = b.firstname;
         this.surname = b.surname;
         this.email = b.email;
-        this.record = b.record;
     }
 
     public static class Builder
     {
         private String user_id;
-        private String password;
-        private String name;
+        private String passwordkey;
+        private String firstname;
         private String surname;
         private String email;
-        private ReviewRecord record;
 
         public Builder user_id(String value)
         {
@@ -37,15 +43,15 @@ public class User implements Person{
             return this;
         }
 
-        public Builder password(String value)
+        public Builder passwordkey(String value)
         {
-            this.password = value;
+            this.passwordkey = value;
             return this;
         }
 
-        public Builder name(String value)
+        public Builder firstname(String value)
         {
-            this.name = value;
+            this.firstname = value;
             return this;
         }
 
@@ -61,12 +67,6 @@ public class User implements Person{
             return this;
         }
 
-        public Builder record(ReviewRecord value)
-        {
-            this.record = value;
-            return this;
-        }
-
         public User build()
         {
             return new User(this);
@@ -78,23 +78,23 @@ public class User implements Person{
         return user_id;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPasswordkey() {
+        return passwordkey;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstname() {
+        return firstname;
     }
 
     public String getSurname() {
         return surname;
     }
 
-    public ReviewRecord getRecord() {
-        return record;
-    }
-
     public String getEmail() {
         return email;
+    }
+
+    public int compareTo(User user) {
+        return user_id.compareTo(user.getID());
     }
 }

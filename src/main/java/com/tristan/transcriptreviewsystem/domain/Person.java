@@ -6,7 +6,7 @@ package com.tristan.transcriptreviewsystem.domain;
 public interface Person {
 
     public abstract String getID();
-    public abstract String getName();
+    public abstract String getFirstname();
     public abstract String getSurname();
     public abstract String getEmail();
 

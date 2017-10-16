@@ -19,6 +19,7 @@ public class TranscriptFactory {
                 .clip((AudioClip) values.get("clip"))
                 .date((Date) values.get("date"))
                 .transcriber((User) values.get("transcriber"))
+                .text((String) values.get("text"))
                 .build();
 
         return transcript;

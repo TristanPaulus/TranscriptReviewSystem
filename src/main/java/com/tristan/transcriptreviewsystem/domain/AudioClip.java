@@ -1,21 +1,30 @@
 package com.tristan.transcriptreviewsystem.domain;
 
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.io.Serializable;
+
 /**
  * Created by Tristan on 2017/08/11.
  */
-public class AudioClip {
 
+@Entity
+public class AudioClip implements Serializable, Comparable<AudioClip>{
+
+    @Id
+    //@GeneratedValue(strategy= GenerationType.AUTO)
     private String audio_id;
     private String clip_name;
     private double duration;
-    private Meeting meeting;
 
     public AudioClip(Builder b)
     {
         this.audio_id = b.audio_id;
         this.clip_name = b.clip_name;
         this.duration = b.duration;
-        this.meeting = b.meeting;
     }
 
     public static class Builder
@@ -23,7 +32,6 @@ public class AudioClip {
         private String audio_id;
         private String clip_name;
         private double duration;
-        private Meeting meeting;
 
         public Builder audio_id(String value)
         {
@@ -40,12 +48,6 @@ public class AudioClip {
         public Builder duration(double value)
         {
             this.duration = value;
-            return this;
-        }
-
-        public Builder meeting(Meeting value)
-        {
-            this.meeting = value;
             return this;
         }
 
@@ -67,7 +69,8 @@ public class AudioClip {
         return duration;
     }
 
-    public Meeting getMeeting() {
-        return meeting;
+
+    public int compareTo(AudioClip clip) {
+        return audio_id.compareTo(clip.getAudio_id());
     }
 }

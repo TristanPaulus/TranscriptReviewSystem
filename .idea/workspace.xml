@@ -2,49 +2,194 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e53cad-0bf2-4f4c-93c7-58fc6a24399d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/MeetingRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ParticipantRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRecordRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/MeetingRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ParticipantRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ReviewRecordRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ReviewRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/UserRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/NewReview.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ParticipantRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/services/NewReviewTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/MeetingRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_43.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/AudioClipController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/ManagerController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/ReviewController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/TranscriptController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/security/SecurityConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/AudioClipServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ManagerServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ReviewServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/TranscriptServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/AudioClipService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/ManagerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/ReviewService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/TranscriptService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Meeting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Participant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/ReviewRecord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/MeetingFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ParticipantFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/MeetingRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ParticipantRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRecordRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/MeetingRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ParticipantRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ReviewRecordRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/MeetingFactoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ParticipantFactoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/MeetingRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ParticipantRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Manager$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Meeting$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Meeting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Participant$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Participant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/ReviewRecord$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/ReviewRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/ManagerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/MeetingFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/ParticipantFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/MeetingRepositoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ParticipantRepositoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRecordRepositoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/MeetingRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ParticipantRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ReviewRecordRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/services/NewReview.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/ManagerFactoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/MeetingFactoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/ParticipantFactoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/MeetingRepositoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/ParticipantRepositoryTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/NewReview.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Other/NewReview.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/App.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/AudioClip$Builder.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/AudioClip$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/AudioClip.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/AudioClip.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Person.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Review$Builder.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Review$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Review.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Review.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Transcript$Builder.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Transcript$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Transcript.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/Transcript.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/User$Builder.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/User$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/AudioClipFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/AudioClipFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/ReviewFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/ReviewFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/UserFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/factories/UserFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ReviewRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/ReviewRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/tristan/transcriptreviewsystem/repositories/UserRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/AppTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/AudioClipFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/AudioClipFactoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/ReviewFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/ReviewFactoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/TranscriptFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/TranscriptFactoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/services/NewReviewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/tristan/transcriptreviewsystem/services/NewReviewTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TranscriptReviewSystem.iml" afterPath="$PROJECT_DIR$/TranscriptReviewSystem.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/AudioClip.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/AudioClip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Manager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Review.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Review.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ManagerFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ManagerFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/UserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/UserFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/MeetingRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/MeetingRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ParticipantRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ParticipantRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRecordRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRecordRepositoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ManagerFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ManagerFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/services/NewReviewTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/services/NewReviewTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,11 +206,87 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReviewRepositoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.java">
+      <file leaf-file-name="AudioClipServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/AudioClipServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="-18">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1128#1139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioClipController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/AudioClipController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranscriptServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/TranscriptServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReviewServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ReviewServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Review.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Review.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transcript.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TranscriptFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -75,37 +296,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transcript.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Review.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Review.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranscriptRepositoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1165">
-              <caret line="82" column="34" lean-forward="false" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -114,57 +305,12 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#1980#1981#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1828#1829#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepositoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewReview.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/NewReview.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#855#871#0" expanded="true" />
-                <element signature="e#2017#2018#0" expanded="true" />
-                <element signature="e#2066#2067#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewReviewTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/services/NewReviewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -174,12 +320,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="TestNG Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>low</find>
+      <find>reposi</find>
+      <find>name</find>
+      <find>password</find>
+      <find>Object</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -192,65 +348,98 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Participant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/ReviewRecord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/MeetingFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ManagerFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ParticipantFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ReviewFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ReviewFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Review.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Meeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/MeetingRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ParticipantRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ReviewRecordRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/MeetingRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ParticipantRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRecordRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Meeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/UserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ParticipantFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/MeetingRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ParticipantRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/TranscriptService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRecordRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/config/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/config/WebInit.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ReviewRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/resources.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/ReviewRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/UserFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/EvaluateReview.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/services/NewReviewTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/NewReview.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ReviewServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/Transcript.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/ReviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/TranscriptController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ManagerFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/AudioClipServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ManagerFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/ManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/AudioClip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Review.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/TranscriptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/AudioClipController.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TranscriptReviewSystem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1452" />
+    <option name="width" value="1456" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -267,8 +456,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,36 +522,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TranscriptReviewSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TranscriptReviewSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transcriptreviewsystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="repositories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -414,6 +573,46 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TranscriptReviewSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TranscriptReviewSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TranscriptReviewSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TranscriptReviewSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -479,7 +678,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="repositories" />
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -509,11 +712,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="repositories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Impl" />
+              <option name="myItemId" value="security" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -577,28 +776,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TranscriptReviewSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TranscriptReviewSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transcriptreviewsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Munchies" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.tristan.transcriptreviewsystem.services" />
       <recent name="com.tristan.transcriptreviewsystem.repositories" />
+      <recent name="com.tristan.transcriptreviewsystem.services" />
+      <recent name="com.tristan.transcriptreviewsystem.Razia" />
       <recent name="com.tristan.transcriptreviewsystem.repositories.Impl" />
       <recent name="com.tristan.transcriptreviewsystem.factories" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tristan\IdeaProjects\TranscriptReviewSystem\src\main\resources" />
+      <recent name="C:\Users\Tristan\IdeaProjects\TranscriptReviewSystem\src\main" />
+      <recent name="C:\Users\Tristan\IdeaProjects\TranscriptReviewSystem\src\main\java\com\tristan\transcriptreviewsystem" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.NewReviewTest.calculateTotal">
-    <configuration default="false" name="UserRepositoryTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App">
+    <configuration default="false" name="UserRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.tristan.transcriptreviewsystem.repositories.*" />
@@ -610,7 +849,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tristan.transcriptreviewsystem.repositories" />
       <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="read" />
+      <option name="METHOD_NAME" value="findAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -624,7 +863,86 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="UserRepositoryTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ReviewRepositoryTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tristan.transcriptreviewsystem.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TranscriptReviewSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.tristan.transcriptreviewsystem.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AudioClipRepositoryTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tristan.transcriptreviewsystem.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TranscriptReviewSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.tristan.transcriptreviewsystem.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.repositories.AudioClipRepositoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.tristan.transcriptreviewsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TranscriptReviewSystem" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserRepositoryTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.tristan.transcriptreviewsystem.repositories.*" />
@@ -636,85 +954,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.tristan.transcriptreviewsystem.repositories" />
       <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tristan.transcriptreviewsystem.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TranscriptReviewSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tristan.transcriptreviewsystem.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="NewReviewTest.invertLoss_of_meaning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tristan.transcriptreviewsystem.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TranscriptReviewSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tristan.transcriptreviewsystem.services" />
-      <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.services.NewReviewTest" />
-      <option name="METHOD_NAME" value="invertLoss_of_meaning" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="NewReviewTest.calculateTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.tristan.transcriptreviewsystem.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TranscriptReviewSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.tristan.transcriptreviewsystem.services" />
-      <option name="MAIN_CLASS_NAME" value="com.tristan.transcriptreviewsystem.services.NewReviewTest" />
-      <option name="METHOD_NAME" value="calculateTotal" />
+      <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -896,6 +1136,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -933,19 +1195,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.read" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.update" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.delete" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NewReviewTest.invertLoss_of_meaning" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NewReviewTest.calculateTotal" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.findAll" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ReviewRepositoryTest.findAll" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.AudioClipRepositoryTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.App" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.create" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NewReviewTest.calculateTotal" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NewReviewTest.invertLoss_of_meaning" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.delete" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.update" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.read" />
+        <item index="0" class="java.lang.String" itemvalue="Application.App" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.create" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserRepositoryTest.findAll" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.AudioClipRepositoryTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ReviewRepositoryTest.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -963,35 +1225,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewReviewTest_calculateTotal - 2017.08.16 at 00h 16m 14s.xml">
-      <configuration name="NewReviewTest.calculateTotal" configurationId="JUnit" />
+    <history-entry file="ReviewRecordRepositoryTest_delete - 2017.09.06 at 13h 58m 07s.xml">
+      <configuration name="ReviewRecordRepositoryTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewReviewTest_calculateTotal - 2017.08.16 at 00h 18m 52s.xml">
-      <configuration name="NewReviewTest.calculateTotal" configurationId="JUnit" />
+    <history-entry file="ReviewRecordRepositoryTest_delete - 2017.09.06 at 13h 58m 23s.xml">
+      <configuration name="ReviewRecordRepositoryTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewReviewTest_calculateTotal - 2017.08.16 at 00h 22m 45s.xml">
-      <configuration name="NewReviewTest.calculateTotal" configurationId="JUnit" />
+    <history-entry file="ReviewRecordRepositoryTest_findAll - 2017.09.06 at 13h 59m 28s.xml">
+      <configuration name="ReviewRecordRepositoryTest.findAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewReviewTest_invertLoss_of_meaning - 2017.08.16 at 00h 09m 18s.xml">
-      <configuration name="NewReviewTest.invertLoss_of_meaning" configurationId="JUnit" />
+    <history-entry file="ReviewRecordRepositoryTest_findAll - 2017.09.06 at 14h 04m 07s.xml">
+      <configuration name="ReviewRecordRepositoryTest.findAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewReviewTest_invertLoss_of_meaning - 2017.08.16 at 00h 09m 28s.xml">
-      <configuration name="NewReviewTest.invertLoss_of_meaning" configurationId="JUnit" />
+    <history-entry file="ReviewRecordRepositoryTest_findAll - 2017.09.06 at 14h 04m 45s.xml">
+      <configuration name="ReviewRecordRepositoryTest.findAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TranscriptRepositoryTest_delete - 2017.08.15 at 23h 20m 27s.xml">
-      <configuration name="TranscriptRepositoryTest.delete" configurationId="JUnit" />
+    <history-entry file="ReviewRepositoryTest_findAll - 2017.09.06 at 14h 22m 51s.xml">
+      <configuration name="ReviewRepositoryTest.findAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositoryTest_create - 2017.08.15 at 23h 28m 03s.xml">
+    <history-entry file="UserRepositoryTest_create - 2017.09.06 at 23h 08m 48s.xml">
       <configuration name="UserRepositoryTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositoryTest_delete - 2017.08.15 at 23h 35m 57s.xml">
-      <configuration name="UserRepositoryTest.delete" configurationId="JUnit" />
+    <history-entry file="UserRepositoryTest_create - 2017.09.06 at 23h 09m 37s.xml">
+      <configuration name="UserRepositoryTest.create" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositoryTest_read - 2017.08.15 at 23h 33m 07s.xml">
-      <configuration name="UserRepositoryTest.read" configurationId="JUnit" />
+    <history-entry file="UserRepositoryTest_findAll - 2017.09.06 at 14h 11m 27s.xml">
+      <configuration name="UserRepositoryTest.findAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositoryTest_update - 2017.08.15 at 23h 34m 49s.xml">
-      <configuration name="UserRepositoryTest.update" configurationId="JUnit" />
+    <history-entry file="UserRepositoryTest_findAll - 2017.09.06 at 14h 11m 52s.xml">
+      <configuration name="UserRepositoryTest.findAll" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -1004,46 +1266,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1452" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19919246" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5028653" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32032302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.49713466" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31090176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257066" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14367816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16117479" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20188425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1052,358 +1317,100 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ReviewRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/MeetingFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ManagerFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="41" column="52" lean-forward="false" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ParticipantFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ReviewFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="27" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/ReviewRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="18" selection-end-column="25" />
+          <caret line="18" column="84" lean-forward="true" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Other/SkillAssessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="393">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ReviewFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/MeetingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ManagerFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/services/SkillAssessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="42" column="47" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ReviewRecordRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/AudioClip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#475#492#0" expanded="false" />
-            <element signature="e#1249#1250#0" expanded="false" />
-            <element signature="e#1296#1297#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/MeetingRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#475#492#0" expanded="false" />
-            <element signature="e#1281#1282#0" expanded="false" />
-            <element signature="e#1328#1329#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ParticipantRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="89" lean-forward="false" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#503#524#0" expanded="false" />
-            <element signature="e#1410#1411#0" expanded="false" />
-            <element signature="e#1465#1466#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRecordRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="92" lean-forward="false" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#504#526#0" expanded="false" />
-            <element signature="e#1376#1377#0" expanded="false" />
-            <element signature="e#1427#1428#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="86" lean-forward="false" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#497#517#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#454#468#0" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="28" />
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/AudioClipRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="78" lean-forward="false" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#485#504#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ReviewRecordFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/UserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ParticipantFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Meeting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/MeetingRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ParticipantRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/MeetingRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Participant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ParticipantRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="714">
+          <caret line="46" column="7" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ReviewRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/TranscriptRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="13" column="61" lean-forward="false" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -1411,39 +1418,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="82" column="34" lean-forward="false" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1451,58 +1426,458 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/UserFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ReviewRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="92" column="10" lean-forward="false" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/AudioClipRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/ReviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1151#1152#0" expanded="false" />
+            <element signature="e#1195#1196#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/TranscriptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ReviewFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/AudioClipFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/config/WebInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="101" column="2" lean-forward="false" selection-start-line="101" selection-start-column="2" selection-end-line="101" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1507928456006" expanded="false" signature="1668:1691" ph=" { " />
+            <marker date="1507928456006" expanded="false" signature="1716:1726" ph=" }" />
+            <marker date="1507928456006" expanded="false" signature="1768:1779" ph=" { " />
+            <marker date="1507928456006" expanded="false" signature="1798:1804" ph=" }" />
+            <marker date="1507928456006" expanded="false" signature="1831:1842" ph=" { " />
+            <marker date="1507928456006" expanded="false" signature="1860:1866" ph=" }" />
+            <marker date="1507928456006" expanded="false" signature="1900:1911" ph=" { " />
+            <marker date="1507928456006" expanded="false" signature="1928:1934" ph=" }" />
+            <marker date="1507928456006" expanded="false" signature="1966:1977" ph=" { " />
+            <marker date="1507928456006" expanded="false" signature="1992:1998" ph=" }" />
+            <marker date="1507928456006" expanded="false" signature="2028:2039" ph=" { " />
+            <marker date="1507928456006" expanded="false" signature="2052:2058" ph=" }" />
+            <marker date="1507928456006" expanded="false" signature="2095:2106" ph=" { " />
+            <marker date="1507928456006" expanded="false" signature="2145:2151" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/ManagerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/Impl/ManagerRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="63" lean-forward="false" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#1276#0" expanded="true" />
+            <marker date="1507928456693" expanded="false" signature="657:667" ph=" { " />
+            <marker date="1507928456693" expanded="false" signature="707:713" ph=" }" />
+            <marker date="1507928456693" expanded="false" signature="752:762" ph=" { " />
+            <marker date="1507928456693" expanded="false" signature="804:810" ph=" }" />
+            <marker date="1507928456693" expanded="false" signature="853:864" ph=" { " />
+            <marker date="1507928456693" expanded="false" signature="904:910" ph=" }" />
+            <marker date="1507928456693" expanded="false" signature="948:959" ph=" { " />
+            <marker date="1507928456693" expanded="false" signature="984:990" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/ManagerRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/factories/ManagerFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1507928471525" expanded="false" signature="830:840" ph=" { " />
+            <marker date="1507928471525" expanded="false" signature="871:877" ph=" }" />
+            <marker date="1507928471525" expanded="false" signature="1001:1011" ph=" { " />
+            <marker date="1507928471525" expanded="false" signature="1049:1055" ph=" }" />
+            <marker date="1507928471525" expanded="false" signature="1181:1191" ph=" { " />
+            <marker date="1507928471525" expanded="false" signature="1222:1228" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Interfaces/ManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="72" lean-forward="false" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/AudioClip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/repositories/UserRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Review.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="78">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/NewReview.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/domain/Transcript.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/factories/TranscriptFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/repositories/TranscriptRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/TranscriptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/ReviewServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/services/Impl/AudioClipServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#855#871#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#1128#1139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tristan/transcriptreviewsystem/services/NewReviewTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tristan/transcriptreviewsystem/controller/AudioClipController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="102">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TranscriptReviewSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.64</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install" />
   </component>
 </project>

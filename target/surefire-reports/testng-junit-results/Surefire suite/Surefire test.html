@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 05 13:51:58 CAT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (888 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest.calculateNewScores()'><b>calculateNewScores</b><br>Test class: com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest</td>
+<td></td>
+<td>0</td>
+<td>calculateNewScores(com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.NewReviewTest.calculateTotal()'><b>calculateTotal</b><br>Test class: com.tristan.transcriptreviewsystem.services.NewReviewTest</td>
+<td></td>
+<td>0</td>
+<td>calculateTotal(com.tristan.transcriptreviewsystem.services.NewReviewTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest.create()'><b>create</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>create(com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest.create()'><b>create</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>create(com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest.create()'><b>create</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>create(com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest.create()'><b>create</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>create(com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest.create()'><b>create</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>create(com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest.create()'><b>create</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>create(com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.SkillAssessorTest.createUserMap()'><b>createUserMap</b><br>Test class: com.tristan.transcriptreviewsystem.services.SkillAssessorTest</td>
+<td></td>
+<td>0</td>
+<td>createUserMap(com.tristan.transcriptreviewsystem.services.SkillAssessorTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest.createValuesMap()'><b>createValuesMap</b><br>Test class: com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest</td>
+<td></td>
+<td>0</td>
+<td>createValuesMap(com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest.delete()'><b>delete</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>delete(com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest.delete()'><b>delete</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>delete(com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest.delete()'><b>delete</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>delete(com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest.delete()'><b>delete</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>delete(com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest.delete()'><b>delete</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>delete(com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest.delete()'><b>delete</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>delete(com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.SkillAssessorTest.findStrength()'><b>findStrength</b><br>Test class: com.tristan.transcriptreviewsystem.services.SkillAssessorTest</td>
+<td></td>
+<td>0</td>
+<td>findStrength(com.tristan.transcriptreviewsystem.services.SkillAssessorTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.SkillAssessorTest.findStrongestUser()'><b>findStrongestUser</b><br>Test class: com.tristan.transcriptreviewsystem.services.SkillAssessorTest</td>
+<td></td>
+<td>0</td>
+<td>findStrongestUser(com.tristan.transcriptreviewsystem.services.SkillAssessorTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.SkillAssessorTest.findWeakestUser()'><b>findWeakestUser</b><br>Test class: com.tristan.transcriptreviewsystem.services.SkillAssessorTest</td>
+<td></td>
+<td>0</td>
+<td>findWeakestUser(com.tristan.transcriptreviewsystem.services.SkillAssessorTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.SkillAssessorTest.findWeakness()'><b>findWeakness</b><br>Test class: com.tristan.transcriptreviewsystem.services.SkillAssessorTest</td>
+<td></td>
+<td>0</td>
+<td>findWeakness(com.tristan.transcriptreviewsystem.services.SkillAssessorTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.NewReviewTest.generateReview()'><b>generateReview</b><br>Test class: com.tristan.transcriptreviewsystem.services.NewReviewTest</td>
+<td></td>
+<td>0</td>
+<td>generateReview(com.tristan.transcriptreviewsystem.services.NewReviewTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.AudioClipFactoryTest.getAudioClip()'><b>getAudioClip</b><br>Test class: com.tristan.transcriptreviewsystem.factories.AudioClipFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getAudioClip(com.tristan.transcriptreviewsystem.factories.AudioClipFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.ManagerFactoryTest.getManager()'><b>getManager</b><br>Test class: com.tristan.transcriptreviewsystem.factories.ManagerFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getManager(com.tristan.transcriptreviewsystem.factories.ManagerFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.MeetingFactoryTest.getMeeting()'><b>getMeeting</b><br>Test class: com.tristan.transcriptreviewsystem.factories.MeetingFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getMeeting(com.tristan.transcriptreviewsystem.factories.MeetingFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.ParticipantFactoryTest.getParticipant()'><b>getParticipant</b><br>Test class: com.tristan.transcriptreviewsystem.factories.ParticipantFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getParticipant(com.tristan.transcriptreviewsystem.factories.ParticipantFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.ReviewFactoryTest.getReview()'><b>getReview</b><br>Test class: com.tristan.transcriptreviewsystem.factories.ReviewFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getReview(com.tristan.transcriptreviewsystem.factories.ReviewFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.ReviewRecordFactoryTest.getReviewRecord()'><b>getReviewRecord</b><br>Test class: com.tristan.transcriptreviewsystem.factories.ReviewRecordFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getReviewRecord(com.tristan.transcriptreviewsystem.factories.ReviewRecordFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.TranscriptFactoryTest.getTranscript()'><b>getTranscript</b><br>Test class: com.tristan.transcriptreviewsystem.factories.TranscriptFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getTranscript(com.tristan.transcriptreviewsystem.factories.TranscriptFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.factories.UserFactoryTest.getUser()'><b>getUser</b><br>Test class: com.tristan.transcriptreviewsystem.factories.UserFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>getUser(com.tristan.transcriptreviewsystem.factories.UserFactoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.NewReviewTest.invertLoss_of_meaning()'><b>invertLoss_of_meaning</b><br>Test class: com.tristan.transcriptreviewsystem.services.NewReviewTest</td>
+<td></td>
+<td>0</td>
+<td>invertLoss_of_meaning(com.tristan.transcriptreviewsystem.services.NewReviewTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest.newReviewRecord()'><b>newReviewRecord</b><br>Test class: com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest</td>
+<td></td>
+<td>0</td>
+<td>newReviewRecord(com.tristan.transcriptreviewsystem.services.UpdateReviewRecordTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest.read()'><b>read</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>read(com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest.read()'><b>read</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>read(com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest.read()'><b>read</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>read(com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest.read()'><b>read</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>read(com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest.read()'><b>read</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>read(com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest.read()'><b>read</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>read(com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.AppTest.testApp()'><b>testApp</b><br>Test class: com.tristan.transcriptreviewsystem.AppTest</td>
+<td></td>
+<td>0</td>
+<td>testApp(com.tristan.transcriptreviewsystem.AppTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest.update()'><b>update</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>update(com.tristan.transcriptreviewsystem.repositories.ManagerRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest.update()'><b>update</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>update(com.tristan.transcriptreviewsystem.repositories.MeetingRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest.update()'><b>update</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>update(com.tristan.transcriptreviewsystem.repositories.ParticipantRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest.update()'><b>update</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>update(com.tristan.transcriptreviewsystem.repositories.ReviewRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest.update()'><b>update</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>update(com.tristan.transcriptreviewsystem.repositories.TranscriptRepositoryTest)</td></tr>
+<tr>
+<td title='com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest.update()'><b>update</b><br>Test class: com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest</td>
+<td></td>
+<td>0</td>
+<td>update(com.tristan.transcriptreviewsystem.repositories.UserRepositoryTest)</td></tr>
+</table><p>
+</body>
+</html>

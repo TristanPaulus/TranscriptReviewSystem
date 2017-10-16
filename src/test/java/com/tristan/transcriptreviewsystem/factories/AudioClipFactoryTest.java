@@ -1,7 +1,7 @@
 package com.tristan.transcriptreviewsystem.factories;
 
 import com.tristan.transcriptreviewsystem.domain.AudioClip;
-import com.tristan.transcriptreviewsystem.domain.Meeting;
+//import com.tristan.transcriptreviewsystem.domain.Meeting;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,7 +21,7 @@ public class AudioClipFactoryTest {
     private String audio_id;
     private String clip_name;
     private double duration;
-    private Meeting meeting;
+    //private Meeting meeting;
 
     @Before
     public void setUp() throws Exception {
@@ -30,7 +30,7 @@ public class AudioClipFactoryTest {
         values.put("audio_id", "AUD_100");
         values.put("clip_name", "State of the nation address(5)");
         values.put("duration", 0.5);
-        values.put("meeting", meeting);
+        //values.put("meeting", meeting);
 
 
     }

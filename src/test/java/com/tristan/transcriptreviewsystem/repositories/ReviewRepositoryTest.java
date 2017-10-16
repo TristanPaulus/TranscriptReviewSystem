@@ -7,6 +7,8 @@ import com.tristan.transcriptreviewsystem.repositories.Impl.ReviewRepositoryImpl
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 /**
@@ -16,13 +18,12 @@ public class ReviewRepositoryTest {
 
     Transcript transcript;
     User user;
-    ReviewRepositoryImpl repository;
+    ReviewRepository repository;
     Review review;
 
     @Before
     public void setUp() throws Exception {
 
-        repository = ReviewRepositoryImpl.getInstance();
 
         review = new Review.Builder()
                 .review_id("REV101")
@@ -40,22 +41,22 @@ public class ReviewRepositoryTest {
     @Test
     public void create() throws Exception {
 
-        Review savedReview = repository.create(review);
+        Review savedReview = repository.save(review);
         assertEquals("REV101", savedReview.getReview_id());
 
     }
 
     @Test
     public void read() throws Exception {
-        repository.create(review);
-        Review savedReview = repository.read("REV101");
+        repository.save(review);
+        Review savedReview = repository.findOne("REV101");
         assertEquals(1, savedReview.getGrammar());
     }
 
     @Test
     public void update() throws Exception {
 
-        repository.create(review);
+        repository.save(review);
 
         Review newReview = new Review.Builder()
                 .review_id("REV101")
@@ -69,18 +70,27 @@ public class ReviewRepositoryTest {
                 .user(user)
                 .build();
 
-        Review savedReview = repository.update(newReview);
+        Review savedReview = repository.save(newReview);
         assertEquals(10.0, savedReview.getTotal(), 0.001);
     }
 
     @Test
     public void delete() throws Exception {
 
-        Review savedReview = repository.create(review);
+        Review savedReview = repository.save(review);
         assertNotNull(savedReview);
         repository.delete("REV101");
-        savedReview = repository.read("REV101");
+        savedReview = repository.findOne("REV101");
         assertNull(savedReview );
+    }
+
+    @Test
+    public void findAll() throws Exception
+    {
+        repository.save(review);
+
+        assertEquals(1, repository.count());
+        //assertEquals("REV101", reviews.get(0).getReview_id());
     }
 
 }

@@ -2,6 +2,7 @@ package com.tristan.transcriptreviewsystem.services;
 
 import com.tristan.transcriptreviewsystem.domain.Transcript;
 import com.tristan.transcriptreviewsystem.domain.User;
+import com.tristan.transcriptreviewsystem.services.Other.NewReview;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,32 +1,43 @@
 package com.tristan.transcriptreviewsystem.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.io.Serializable;
+
 /**
  * Created by Tristan on 2017/08/11.
  */
-public class Manager implements Person{
 
+/*
+@Entity
+public class Manager implements Person, Serializable, Comparable<Manager>{
+
+    @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private String manager_id;
-    private String name;
+    private String firstname;
     private String surname;
     private String email;
-    private String password;
+    private String passwordkey;
 
     public Manager(Builder b)
     {
         this.manager_id = b.manager_id;
-        this.name = b.name;
+        this.firstname = b.firstname;
         this.surname = b.surname;
         this.email = b.email;
-        this.password = b.password;
+        this.passwordkey = b.passwordkey;
     }
 
     public static class Builder
     {
         private String manager_id;
-        private String name;
+        private String firstname;
         private String surname;
         private String email;
-        private String password;
+        private String passwordkey;
 
         public Builder manager_id(String value)
         {
@@ -34,9 +45,9 @@ public class Manager implements Person{
             return this;
         }
 
-        public Builder name(String value)
+        public Builder firstname(String value)
         {
-            this.name = value;
+            this.firstname = value;
             return this;
         }
 
@@ -52,9 +63,9 @@ public class Manager implements Person{
             return this;
         }
 
-        public Builder password(String value)
+        public Builder passwordkey(String value)
         {
-            this.password = value;
+            this.passwordkey = value;
             return this;
         }
 
@@ -64,16 +75,16 @@ public class Manager implements Person{
         }
     }
 
-    public String getPassword() {
-        return password;
+    public String getPasswordkey() {
+        return passwordkey;
     }
 
     public String getID() {
         return manager_id;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstname() {
+        return firstname;
     }
 
     public String getSurname() {
@@ -83,4 +94,9 @@ public class Manager implements Person{
     public String getEmail() {
         return email;
     }
+
+    public int compareTo(Manager m) {
+        return manager_id.compareTo(m.getID());
+    }
 }
+*/
