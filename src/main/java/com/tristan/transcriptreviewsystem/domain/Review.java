@@ -13,8 +13,12 @@ public class Review implements Serializable, Comparable<Review>{
     @Id
     //@GeneratedValue(strategy= GenerationType.AUTO)
     private String review_id;
-    private Transcript transcript;
-    private User user;
+//    private Transcript transcript;
+//    private User user;
+    private String transcriber_id;
+    private String reviewer_id;
+    private String transcriber;
+    private String audio_clip;
     private int grammar;
     private int language;
     private int translation;
@@ -22,30 +26,55 @@ public class Review implements Serializable, Comparable<Review>{
     private int punctuation;
     private double total;
 
+    public Review()
+    {
+
+    }
+
     public Review(Builder b)
     {
         this.review_id = b.review_id;
-        this.transcript = b.transcript;
-        this.user = b.user;
+//        this.transcript = b.transcript;
+//        this.user = b.user;
+        this.transcriber_id = b.transcriber_id;
+        this.reviewer_id = b.reviewer_id;
         this.grammar = b.grammar;
         this.language = b.language;
         this.translation = b.translation;
         this.loss_of_meaning = b.loss_of_meaning;
         this.punctuation = b.punctuation;
         this.total = b.total;
+        this.transcriber = b.transcriber;
+        this.audio_clip = b.audio_clip;
     }
 
     public static class Builder
     {
         private String review_id;
-        private Transcript transcript;
-        private User user;
+        //    private Transcript transcript;
+        //    private User user;
+        private String transcriber_id;
+        private String reviewer_id;
         private int grammar;
         private int language;
         private int translation;
         private int loss_of_meaning;
         private int punctuation;
         private double total;
+        private String audio_clip;
+        private String transcriber;
+
+        public Builder transcriber_id(String value)
+        {
+            this.transcriber_id = value;
+            return this;
+        }
+
+        public Builder reviewer_id(String value)
+        {
+            this.reviewer_id = value;
+            return this;
+        }
 
         public Builder review_id(String value)
         {
@@ -53,6 +82,18 @@ public class Review implements Serializable, Comparable<Review>{
             return this;
         }
 
+        public Builder transcriber(String value)
+        {
+            this.transcriber = value;
+            return this;
+        }
+
+        public Builder audio_clip(String value)
+        {
+            this.audio_clip = value;
+            return this;
+        }
+/*
         public Builder transcript(Transcript value)
         {
             this.transcript = value;
@@ -64,7 +105,7 @@ public class Review implements Serializable, Comparable<Review>{
             this.user = value;
             return this;
         }
-
+*/
         public Builder grammar(int value)
         {
             this.grammar = value;
@@ -107,16 +148,32 @@ public class Review implements Serializable, Comparable<Review>{
         }
     }
 
+    public String getTranscriber() {
+        return transcriber;
+    }
+
+    public String getAudio_clip() {
+        return audio_clip;
+    }
+
     public String getReview_id() {
         return review_id;
     }
-
+/*
     public Transcript getTranscript() {
         return transcript;
     }
 
     public User getUser() {
         return user;
+    }*/
+
+    public String getTranscriber_id() {
+        return transcriber_id;
+    }
+
+    public String getReviewer_id() {
+        return reviewer_id;
     }
 
     public int getGrammar() {

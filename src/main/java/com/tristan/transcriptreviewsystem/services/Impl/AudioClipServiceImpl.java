@@ -14,7 +14,7 @@ import java.util.List;
  * Created by Tristan on 2017/09/06.
  */
 @Service
-public class  AudioClipServiceImpl /*implements AudioClipService */{
+public class    AudioClipServiceImpl /*implements AudioClipService */{
 
     @Autowired
     private AudioClipRepository repository;

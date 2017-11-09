@@ -30,9 +30,9 @@ public class TranscriptRepositoryTest {
 
         transcript = new Transcript.Builder()
                 .transcript_id("T101")
-                .clip(clip)
+                .clip("100")
                 .date(date)
-                .transcriber(transcriber)
+                .transcriber_id("101")
                 .build();
 
     }

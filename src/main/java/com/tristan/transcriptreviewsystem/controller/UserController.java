@@ -5,7 +5,9 @@ import com.tristan.transcriptreviewsystem.services.Impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
+import javax.ws.rs.core.Response;
 import java.util.List;
 
 /**
@@ -13,13 +15,14 @@ import java.util.List;
  */
 
 @Controller
+@CrossOrigin(origins = "http://localhost")
 @RequestMapping(path="/user")
 public class UserController {
 
     @Autowired
     private UserServiceImpl userService;
 
-    @GetMapping(path="/all")
+    @RequestMapping(path="/all", method = RequestMethod.GET)
     public @ResponseBody
     List<User> getAllUsers(){
         return userService.getAll();
@@ -28,9 +31,11 @@ public class UserController {
     @RequestMapping(value="/add", method = RequestMethod.POST)
     public void addUser(@RequestBody User user){
         userService.create(user);
+
+
     }
 
-    @RequestMapping(value="/find{userID}")
+    @RequestMapping(value="/find{userID}", method = RequestMethod.GET)
     public @ResponseBody User findAudioClip(@PathVariable String userID){
         return userService.read(userID);
     }
@@ -45,4 +50,5 @@ public class UserController {
 
         userService.delete(userID);
     }
+
 }

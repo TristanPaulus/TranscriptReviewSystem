@@ -20,6 +20,15 @@ public class User implements Person, Serializable, Comparable<User>{
     private String surname;
     private String email;
 
+    public User()
+    {
+        /*this.user_id = "test";
+        this.passwordkey = "testpasswordkey";
+        this.firstname = "testfirstname";
+        this.surname = "testsurname";
+        this.email = "testemail";*/
+    }
+
     public User(Builder b)
     {
         this.user_id = b.user_id;

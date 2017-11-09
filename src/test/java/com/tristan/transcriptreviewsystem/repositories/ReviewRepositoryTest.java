@@ -33,8 +33,10 @@ public class ReviewRepositoryTest {
                 .loss_of_meaning(4)
                 .punctuation(5)
                 .total(6.0)
-                .transcript(transcript)
-                .user(user)
+                //.transcript(transcript)
+                //.user(user)
+                .transcriber_id("101")
+                .reviewer_id("101")
                 .build();
     }
 
@@ -66,8 +68,10 @@ public class ReviewRepositoryTest {
                 .loss_of_meaning(4)
                 .punctuation(5)
                 .total(10.0)
-                .transcript(transcript)
-                .user(user)
+                //.transcript(transcript)
+                //.user(user)
+                .transcriber_id("101")
+                .reviewer_id("101")
                 .build();
 
         Review savedReview = repository.save(newReview);

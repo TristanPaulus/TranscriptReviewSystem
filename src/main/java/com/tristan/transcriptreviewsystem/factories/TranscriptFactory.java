@@ -16,9 +16,9 @@ public class TranscriptFactory {
     {
         Transcript transcript = new Transcript.Builder()
                 .transcript_id((String) values.get("transcript_id"))
-                .clip((AudioClip) values.get("clip"))
+                .clip((String) values.get("clip"))
                 .date((Date) values.get("date"))
-                .transcriber((User) values.get("transcriber"))
+                .transcriber_id((String) values.get("transcriber_id"))
                 .text((String) values.get("text"))
                 .build();
 

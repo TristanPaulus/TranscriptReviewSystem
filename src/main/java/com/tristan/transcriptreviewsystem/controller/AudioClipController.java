@@ -13,6 +13,7 @@ import java.util.List;
  */
 
 @Controller
+@CrossOrigin(origins = "http://localhost")
 @RequestMapping(path="/audioclip")
 public class AudioClipController {
 

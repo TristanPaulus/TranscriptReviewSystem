@@ -16,26 +16,32 @@ public class Transcript implements Serializable, Comparable<Transcript>{
     @Id
     //@GeneratedValue(strategy= GenerationType.AUTO)
     private String transcript_id;
-    private AudioClip clip;
+    private String clip;
     private Date date;
-    private User transcriber;
+//    private User transcriber;
+    private String transcriber_id;
     private String text;
+
+    public Transcript()
+    {
+
+    }
 
     public Transcript(Builder b)
     {
         this.transcript_id = b.transcript_id;
         this.clip = b.clip;
         this.date = b.date;
-        this.transcriber = b.transcriber;
+        this.transcriber_id = b.transcriber_id;
         this.text = b.text;
     }
 
     public static class Builder
     {
         private String transcript_id;
-        private AudioClip clip;
+        private String clip;
         private Date date;
-        private User transcriber;
+        private String transcriber_id;
         private String text;
 
         public Builder transcript_id(String value)
@@ -44,7 +50,13 @@ public class Transcript implements Serializable, Comparable<Transcript>{
             return this;
         }
 
-        public Builder clip(AudioClip value)
+        public Builder transcriber_id(String value)
+        {
+            this.transcriber_id = value;
+            return this;
+        }
+
+        public Builder clip(String value)
         {
             this.clip = value;
             return this;
@@ -55,13 +67,13 @@ public class Transcript implements Serializable, Comparable<Transcript>{
             this.date = value;
             return this;
         }
-
+/*
         public Builder transcriber(User value)
         {
             this.transcriber = value;
             return this;
         }
-
+*/
         public Builder text(String value)
         {
             this.text = value;
@@ -79,7 +91,7 @@ public class Transcript implements Serializable, Comparable<Transcript>{
         return transcript_id;
     }
 
-    public AudioClip getClip() {
+    public String getClip() {
         return clip;
     }
 
@@ -87,8 +99,17 @@ public class Transcript implements Serializable, Comparable<Transcript>{
         return date;
     }
 
-    public User getTranscriber() {
+/*    public User getTranscriber() {
         return transcriber;
+    }
+*/
+
+    public String getTranscriber_id() {
+        return transcriber_id;
+    }
+
+    public String getText() {
+        return text;
     }
 
     public int compareTo(Transcript t) {

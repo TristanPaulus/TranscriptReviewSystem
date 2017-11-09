@@ -20,6 +20,11 @@ public class AudioClip implements Serializable, Comparable<AudioClip>{
     private String clip_name;
     private double duration;
 
+    public AudioClip()
+    {
+
+    }
+
     public AudioClip(Builder b)
     {
         this.audio_id = b.audio_id;
